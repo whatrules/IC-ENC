@@ -1,0 +1,125 @@
+.Position{
+	
+	margin-top: 50px;
+	
+}
+
+
+.material-icons.md-8 {
+
+	font-size: 8px;
+
+}
+
+/* --- Menu          --- */
+/* --- Overall Style --- */
+.menu {
+ 
+	border-top: solid 1.25px #c0c0c0;
+	border-bottom: solid 1.25px #c0c0c0;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	
+	font-weight: bold;
+	font-family: "open sans", Arial, sans-serif;
+	font-size: 14px;
+ 
+}
+
+/* --- Button Styling --- */
+.menu li {
+	
+	margin: auto;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.menu li a {
+	
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	border-right: dotted 1.25px #c0c0c0;
+ 
+}
+
+.menu li a:hover {
+	
+	color: #0074c2;
+	border-top: 3px solid #0074c2;
+	
+}
+
+.menu li a:visited {
+	
+	color: none;
+ 
+}
+
+.menu li ul{
+	
+	display: none;
+ 
+}
+
+.active{
+	
+	border-top: solid 3px #666666;
+	
+	
+}
+
+/* --- Navigatoin sub menu --- */
+.submenu{
+	
+	position: absolute;
+	list-style: none;
+	color: black;
+	background-color: #333333;
+	min-width: 150px;
+	box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
+	padding-left: 0;
+	
+	font-family: "open sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.submenu li{
+	
+	width: 100%;
+	float: none;
+
+}
+
+.submenu li a{
+	
+	color: white;
+	border: 0px;
+	
+}
+
+.submenu li a:hover{
+	
+	color: #0074c2;
+	border: 0px;
+
+}
+
+.menu li:hover .submenu{
+	
+	display: block;
+
+}
+
+.subactive {
+
+}
