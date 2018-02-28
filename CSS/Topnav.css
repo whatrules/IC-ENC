@@ -50,14 +50,14 @@
 		
 		}
 		
-		.Home:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-		}
+			.Home:hover {
+				
+				border-top-style: solid;
+				border-top-width: 3px;
+				border-top-color: #0073c6;
+				margin-top: -3px;
+				
+			}
 		
 		.about-us {
 				
@@ -79,12 +79,7 @@
 			position: relative;
 			display: inline-block;
 		}
-		
-			.material-icons.md-8 {
-				
-				font-size: 8px;
-				
-			}
+
 			
 			.About-us:hover .about-us-dropdown {
 				
@@ -112,7 +107,7 @@
 			margin-top: -3px;
 			
 			}
-			
+		
 				.About-us-dropdown {
 					
 					display: none;
@@ -145,45 +140,45 @@
 			
 		}
 		
-			.core-services:hover .Core-Services-dropdown {
-				
-				display: block;
-				
-			}
-			
-			.core-services:hover .Core-Services-dropdown a {
-				
-				color: white;
-				
-			}
-			
-			.core-services:hover .Core-Services-dropdown a:hover{
-				
-				color: #0073c6;
-				
-			}
-			
-			.Core-services:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-			}
-			
-			
-				.core-services-dropdown {
+				.core-services:hover .Core-Services-dropdown {
 					
-					display: none;
-					position: absolute;
-					background-color: #000000;
-					min-width: 160px;
-					box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
-					padding: 12px 16px;
-					z-index: 1;
-					margin-left: -15px;
+					display: block;
+					
 				}
+				
+				.core-services:hover .Core-Services-dropdown a {
+					
+					color: white;
+					
+				}
+				
+				.core-services:hover .Core-Services-dropdown a:hover{
+					
+					color: #0073c6;
+					
+				}
+				
+				.Core-services:hover {
+				
+				border-top-style: solid;
+				border-top-width: 3px;
+				border-top-color: #0073c6;
+				margin-top: -3px;
+				
+				}
+				
+				
+					.core-services-dropdown {
+						
+						display: none;
+						position: absolute;
+						background-color: #000000;
+						min-width: 160px;
+						box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
+						padding: 12px 16px;
+						z-index: 1;
+						margin-left: -15px;
+					}
 		
 		.Coverage {
 			
@@ -204,14 +199,14 @@
 			
 		}
 		
-		.Coverage:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-		}
+			.Coverage:hover {
+				
+				border-top-style: solid;
+				border-top-width: 3px;
+				border-top-color: #0073c6;
+				margin-top: -3px;
+				
+			}
 		
 		.Membership {
 			
@@ -354,14 +349,14 @@
 			
 		}
 		
-		.Contact-us:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-		}
+			.Contact-us:hover {
+				
+				border-top-style: solid;
+				border-top-width: 3px;
+				border-top-color: #0073c6;
+				margin-top: -3px;
+				
+			}
 		
 		.News {
 			
@@ -382,14 +377,14 @@
 			
 		}
 		
-		.News:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-		}
+			.News:hover {
+				
+				border-top-style: solid;
+				border-top-width: 3px;
+				border-top-color: #0073c6;
+				margin-top: -3px;
+				
+			}
 		
 		a.nav:link {
 			
@@ -412,16 +407,9 @@
 
 		}
 		
-		.material-icons.md-8 {
-			
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			text-align: center;
-			vertical-align: middle;
-			width:100%;
+
 		
-		}
+
 		
 
 
