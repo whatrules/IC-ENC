@@ -1,416 +1,125 @@
-.topnav {
+.Position{
 	
-	padding-top: 4px;
-	padding-bottom: 0px;
+	margin-top: 50px;
 	
-	margin: auto;	
+}
+
+
+.material-icons.md-8 {
+
+	font-size: 8px;
+
+}
+
+/* --- Menu          --- */
+/* --- Overall Style --- */
+.menu {
+ 
+	border-top: solid 1.25px #c0c0c0;
+	border-bottom: solid 1.25px #c0c0c0;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
 	
-	width: 995px;
-	height: 52px;
+	font-weight: bold;
+	font-family: "open sans", Arial, sans-serif;
+	font-size: 14px;
+ 
+}
+
+/* --- Button Styling --- */
+.menu li {
 	
-	margin-top: 45px;
+	margin: auto;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.menu li a {
 	
-	border-style: solid;
-	border-color: #C4C4C4;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 0px;
-	border-right-width: 0px;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	border-right: dotted 1.25px #c0c0c0;
+ 
+}
+
+.menu li a:hover {
+	
+	color: #0074c2;
+	border-top: 3px solid #0074c2;
+	
+}
+
+.menu li a:visited {
+	
+	color: none;
+ 
+}
+
+.menu li ul{
+	
+	display: none;
+ 
+}
+
+.active{
+	
+	border-top: solid 3px #666666;
+	
+	
+}
+
+/* --- Navigatoin sub menu --- */
+.submenu{
+	
+	position: absolute;
+	list-style: none;
+	color: black;
+	background-color: #333333;
+	min-width: 150px;
+	box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
+	padding-left: 0;
 	
 	font-family: "open sans", Arial, sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	
-}	
+}
 
-	.topnav-main {
-		
-		max-width: 900px;
-		
-		padding-left: 60px;
-		padding-right: 60px;
-		
-	}
+.submenu li{
 	
-		.Home {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 15px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 1px;
-			border-right-width: 1px;	
-		
-		}
-		
-			.Home:hover {
-				
-				border-top-style: solid;
-				border-top-width: 3px;
-				border-top-color: #0073c6;
-				margin-top: -3px;
-				
-			}
-		
-		.about-us {
-				
-			float: left;
-		
-			padding-top: 15px;
-			padding-bottom: 6px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-			position: relative;
-			display: inline-block;
-		}
+	width: 100%;
+	float: none;
 
-			
-			.About-us:hover .about-us-dropdown {
-				
-				display: block;
-				
-			}
-			
-			.About-us:hover .about-us-dropdown a{
-				
-				color: white;
-				
-			}
-			
-			.About-us:hover .about-us-dropdown a:hover{
-				
-				color: #0073c6;
-				
-			}
-			
-			.About-us:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-			}
-		
-				.About-us-dropdown {
-					
-					display: none;
-					position: absolute;
-					background-color: #000000;
-					min-width: 160px;
-					box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
-					padding: 12px 16px;
-					z-index: 1;
-					margin-left: -15px;
-					
-				}
-				
-		.Core-Services {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 6px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-		}
-		
-				.core-services:hover .Core-Services-dropdown {
-					
-					display: block;
-					
-				}
-				
-				.core-services:hover .Core-Services-dropdown a {
-					
-					color: white;
-					
-				}
-				
-				.core-services:hover .Core-Services-dropdown a:hover{
-					
-					color: #0073c6;
-					
-				}
-				
-				.Core-services:hover {
-				
-				border-top-style: solid;
-				border-top-width: 3px;
-				border-top-color: #0073c6;
-				margin-top: -3px;
-				
-				}
-				
-				
-					.core-services-dropdown {
-						
-						display: none;
-						position: absolute;
-						background-color: #000000;
-						min-width: 160px;
-						box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
-						padding: 12px 16px;
-						z-index: 1;
-						margin-left: -15px;
-					}
-		
-		.Coverage {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 15px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-		}
-		
-			.Coverage:hover {
-				
-				border-top-style: solid;
-				border-top-width: 3px;
-				border-top-color: #0073c6;
-				margin-top: -3px;
-				
-			}
-		
-		.Membership {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 6px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-		}
-			
-			.Membership:hover .Membership-dropdown {
-				
-				display: block;
-				
-			}
-			
-			.Membership:hover .Membership-dropdown a {
-				
-				color: white;
-				
-			}
-			
-			.Membership:hover .Membership-dropdown a:hover {
-				
-				color: #0073c6;
-				
-			}
-			
-			.Membership:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-			}
-			
-				.Membership-dropdown {
-					
-					position: relative;
-					display: inline-block;
-					
-					display: none;
-					position: absolute;
-					background-color: #000000;
-					min-width: 160px;
-					box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
-					padding: 12px 16px;
-					z-index: 1;
-					margin-left: -15px;
-				}	
-		
-		.Capacity-Building {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 6px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-		}
-			
-			.Capacity-Building:hover .Capacity-Building-dropdown {
-				
-				display: block;
-				
-			}
-			
-			.Capacity-Building:hover .Capacity-Building-dropdown a {
-				
-				color: white;
-				
-			}
-			
-			.Capacity-Building:hover .Capacity-Building-dropdown a:hover {
-				
-				color: #0073c6;
-				
-			}
-			
-			.Capacity-Building:hover {
-			
-			border-top-style: solid;
-			border-top-width: 3px;
-			border-top-color: #0073c6;
-			margin-top: -3px;
-			
-			}
-			
-				.Capacity-Building-dropdown {
-					
-					position: relative;
-					display: inline-block;
-					
-					display: none;
-					position: absolute;
-					background-color: #000000;
-					min-width: 160px;
-					box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
-					padding: 12px 16px;
-					z-index: 1;
-					margin-left: -15px;	
-				}
-			
-		.Contact-us {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 15px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-		}
-		
-			.Contact-us:hover {
-				
-				border-top-style: solid;
-				border-top-width: 3px;
-				border-top-color: #0073c6;
-				margin-top: -3px;
-				
-			}
-		
-		.News {
-			
-			float: left;
-			
-			padding-top: 15px;
-			padding-bottom: 15px;
-			padding-left: 15px;
-			padding-right: 15px;
-			
-			
-			border-style: dotted;
-			border-color: #444444;
-			border-top-width: 0px;
-			border-bottom-width: 0px;
-			border-left-width: 0px;
-			border-right-width: 1px;
-			
-		}
-		
-			.News:hover {
-				
-				border-top-style: solid;
-				border-top-width: 3px;
-				border-top-color: #0073c6;
-				margin-top: -3px;
-				
-			}
-		
-		a.nav:link {
-			
-			text-decoration: none; 
-			
-			color: black;
+}
 
-		}
+.submenu li a{
+	
+	color: white;
+	border: 0px;
+	
+}
 
-		a.nav:visited {
+.submenu li a:hover{
+	
+	color: #0074c2;
+	border: 0px;
 
-			color: black;
+}
 
-		}
+.menu li:hover .submenu{
+	
+	display: block;
 
-		a.nav:hover {
+}
 
-			text-decoration: none;
-			color: #0073c6;
+.subactive {
 
-		}
-		
-
-		
-
-		
-
-
-
+}
