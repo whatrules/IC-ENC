@@ -84,45 +84,37 @@ p{
 	
 }
 
-.archive-links
-{
+table {
 	
-	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	border-bottom-color: #D3EDFF;
-	border-bottom-width: 1px;
-		
-}
+    border-collapse: collapse;
 
-.membership-table
-{
-	
-	Float: left;
-	width: 300px;
-	margin: auto;
-	padding-top: 13.5px;
-	padding-bottom: 13.5px;
+	}
+
+th, td {
+    
+	padding: 9px;
+
+	}
+
+td {
 	
 	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
 	font-size: 19px;
 	font-weight: normal;
 	
-}
+	color: #0072c6;
+	
+	width: 315px;
+	height: 100%;
+	
+	}
 
-.membership-table-container
-{
+ul {
 	
-	width: 900px;
-	margin: auto;
-	text-align: center;
+	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 15px
 	
-	display: -ms-grid;
-	display: grid;
-	
-	grid-template-columns: 300px 300px 300px;
-	
-}
+}	
 
 table#Calender{
 	
@@ -225,45 +217,6 @@ table#news-page2{
 
   }
 
-table {
-	
-    border-collapse: collapse;
-
-	}
-
-th, td {
-    
-	padding: 9px;
-
-	}
-
-td {
-	
-	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-	font-size: 19px;
-	font-weight: normal;
-	
-	color: #0072c6;
-	
-	width: 315px;
-	height: 100%;
-	
-	}
-
-ul {
-	
-	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-	font-size: 15px
-	
-}	
-	
-.SiteLocation{
-	
-	width: 970px;
-	margin: auto;
-	
-	}
-
 .main-grid-container {
 
 	display: -ms-grid;
@@ -347,27 +300,6 @@ ul {
 			padding-bottom: 10px;
 			border-top: 3px solid rgba(196, 196, 196, 1);
 		}
-
-		.Flag {
-
-			height: 45px;
-			width: 75px;
-			margin-left: 14px;
-			margin-right: 14px;
-			margin-top: 10px;
-			border: 1px solid rgba(196, 196, 196, 1);
-
-		}
-
-		.Vars {
-			
-			height: 45px;
-			width: 150px;
-			margin-left: 14px;
-			margin-right: 14px;
-			margin-top: 10px;
-
-		}
 		
 .grid-wrapper {
 	
@@ -434,237 +366,6 @@ ul {
 		-ms-grid-column-span: 1;
 		
 	}
-	
-		.news-card {
-			
-			border: 1px solid #ababab;
-			border-radius: 2px;
-			
-			box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.47);
-			
-			padding-top: 32px;
-			padding-right: 32px;
-			padding-bottom: 32px;
-			margin-right: 0px;
-			margin-bottom: 35px;
-			
-			width: 610px;
-			
-		}
-		
-			.news-card-content{
-					
-				padding-left: 88px;
-				margin-top: -88px;
-				
-				width: 485px;
-				
-				font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-				font-size: 13px
-					
-				}
-				
-			.news-images{
-				
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				
-			}
-				
-			.Mathias_Jonas_2014_MZ {
-				
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 150px;
-				
-			}
-			
-			.vice_chairmen {
-				
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 313px;
-				
-			}
-				
-			.new-card-main-content{
-				
-				font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-				font-size: 13px
-				
-			}
-				
-			.news-card-author{
-				
-				width: 551px;
-				height: 20px;
-				
-				margin-top: -45px;
-				
-			}
-		
-		.news-date {
-			
-			width: 77px;
-			height: 41px;
-			
-			background-color: #0072c6;
-			
-		}
-			
-			.news-date-small {
-				
-				font-size: .9em;
-				
-				color: white;
-				
-				text-align: center;
-			
-			}
-
-			.news-date-large {
-				
-				font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-				font-size: 1.46em;
-				font-weight: bold;
-				
-				color: white;
-				
-				text-align: center;
-			
-			}
-			
-			.material-icons.md-7 {
-				
-				border: solid 1px gray;
-				color: #666666;
-			
-			}
-			
-			.material-icons.md-6 {
-				
-				border: solid 1px gray;
-				color: #666666;
-				
-				-webkit-transform: scaleX(-1);
-				transform: scaleX(-1);
-
-			}
-		
-			.page-number {
-				
-				width: 35px;
-				height: 20px
-			
-			}
-			
-			.page-button {
-				
-				width: 26px;
-				height: 26px;
-				
-				padding-left: 40px;
-				margin-top: -24px;
-			
-			}
-			
-			.news-nav2 {
-				
-				width: 127px;
-				height: 26px;
-				
-				border: collapse;
-				
-			}
-	
-
-		
-		.material-icons.md-2 {
-			
-			float: left;
-			
-		}
-		
-		.news1 {
-			
-			padding-left: 35px;
-			padding-bottom: 18px;
-			
-		}
-		
-			.news1:hover {
-				
-				text-decoration: underline;
-				
-			}
-		
-		.news2 {
-			
-			padding-left: 35px;
-			padding-bottom: 18px;
-			
-		}
-		
-			.news2:hover {
-				
-				text-decoration: underline;
-				
-			}
-		
-		.news3 {
-			
-			padding-left: 35px;
-			padding-bottom: 18px;
-			
-		}
-		
-			.news3:hover {
-				
-				text-decoration: underline;
-				
-			}
-		
-		.news4 {
-			
-			padding-left: 35px;
-			padding-bottom: 18px;
-			
-		}
-		
-			.news4:hover {
-				
-				text-decoration: underline;
-				
-			}
-		
-		.news5 {
-			
-			padding-left: 35px;
-			padding-bottom: 18px;
-			
-		}
-		
-			.news5:hover {
-				
-				text-decoration: underline;
-				
-			}
-		
-		.news6 {
-			
-			padding-left: 35px;
-			padding-bottom: 18px;
-			
-		}
-		
-			.news6:hover {
-				
-				text-decoration: underline;
-				
-			}
 	
 	.grid-left-row2 {
 		
@@ -832,6 +533,333 @@ ul {
 		-ms-grid-column-span: 1;
 		
 	}
+		
+.material-icons.md-2 {
+	
+	float: left;
+	
+}
+
+.material-icons.md-6 {
+	
+	border: solid 1px gray;
+	color: #666666;
+	
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+
+}
+
+.material-icons.md-7 {
+	
+	border: solid 1px gray;
+	color: #666666;
+
+}
+
+.Flag {
+
+	height: 45px;
+	width: 75px;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-top: 10px;
+	border: 1px solid rgba(196, 196, 196, 1);
+
+}
+
+.Vars {
+	
+	height: 45px;
+	width: 150px;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-top: 10px;
+
+}
+	
+.site-images {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+			
+}
+
+.CenterText{
+	
+	text-align: center;
+	
+}
+
+.SiteLocation{
+
+	width: 970px;
+	margin: auto;
+
+}
+
+.archive-links {
+
+	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom-color: #D3EDFF;
+	border-bottom-width: 1px;
+		
+}
+
+.news-card {
+	
+	border: 1px solid #ababab;
+	border-radius: 2px;
+	
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.47);
+	
+	padding-top: 32px;
+	padding-right: 32px;
+	padding-bottom: 32px;
+	margin-right: 0px;
+	margin-bottom: 35px;
+	
+	width: 610px;
+	
+}
+
+	.news-card-content{
+			
+		padding-left: 88px;
+		margin-top: -88px;
+		
+		width: 485px;
+		
+		font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+		font-size: 13px
+			
+		}
+		
+		.news-images{
+			
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+			
+		.Mathias_Jonas_2014_MZ {
+			
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 150px;
+			
+		}
+
+		.vice_chairmen {
+			
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 313px;
+			
+		}
+			
+		.new-card-main-content{
+			
+			font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+			font-size: 13px
+			
+		}
+			
+		.news-card-author{
+			
+			width: 551px;
+			height: 20px;
+			
+			margin-top: -45px;
+			
+		}
+
+		.news-date {
+			
+			width: 77px;
+			height: 41px;
+			
+			background-color: #0072c6;
+			
+		}
+			
+		.news-date-small {
+			
+			font-size: .9em;
+			
+			color: white;
+			
+			text-align: center;
+
+		}
+
+		.news-date-large {
+			
+			font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+			font-size: 1.46em;
+			font-weight: bold;
+			
+			color: white;
+			
+			text-align: center;
+
+		}
+
+		.page-number {
+			
+			width: 35px;
+			height: 20px
+
+		}
+
+		.page-button {
+			
+			width: 26px;
+			height: 26px;
+			
+			padding-left: 40px;
+			margin-top: -24px;
+
+		}
+
+		.news-nav2 {
+			
+			width: 127px;
+			height: 26px;
+			
+			border: collapse;
+			
+		}
+
+		.news1 {
+			
+			padding-left: 35px;
+			padding-bottom: 18px;
+			
+		}
+
+			.news1:hover {
+				
+				text-decoration: underline;
+				
+			}
+
+		.news2 {
+			
+			padding-left: 35px;
+			padding-bottom: 18px;
+			
+		}
+
+			.news2:hover {
+				
+				text-decoration: underline;
+				
+			}
+
+		.news3 {
+			
+			padding-left: 35px;
+			padding-bottom: 18px;
+			
+		}
+
+			.news3:hover {
+				
+				text-decoration: underline;
+				
+			}
+
+		.news4 {
+			
+			padding-left: 35px;
+			padding-bottom: 18px;
+			
+		}
+
+			.news4:hover {
+				
+				text-decoration: underline;
+				
+			}
+
+		.news5 {
+			
+			padding-left: 35px;
+			padding-bottom: 18px;
+			
+		}
+
+			.news5:hover {
+				
+				text-decoration: underline;
+				
+			}
+
+		.news6 {
+			
+			padding-left: 35px;
+			padding-bottom: 18px;
+			
+		}
+
+			.news6:hover {
+				
+				text-decoration: underline;
+				
+			}
+
+.MembershipContainer {
+	
+	margin: auto;
+	width: 960px;
+	
+}
+
+.MembershipTable {
+ 
+	border: solid 1px #0072c6;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	width: 960px;
+	float: left;
+	
+	font-family: "Segoe UI light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+ 
+}
+
+.MembershipTable li {
+	
+	margin: auto;
+	float: left;
+	width: 320px;
+ 
+}
+
+.MembershipTable li a {
+	
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #0072c6;
+ 
+}
+
+.MembershipTable li a:hover {
+	
+	background-color: #D3EDFF;
+ 
+}
 	
 	a.membership-table:link {
 			
@@ -854,80 +882,66 @@ ul {
 
 	}
 
-	a.nav:link {
-			
-		text-decoration: none; 
+a.nav:link {
 		
-		color: #0073c6;
-
-	}
-
-	a.nav:visited {
-
-
-	}
-
-	a.nav:hover {
-
-		text-decoration: none;
-		color: black;
-
-	}
-	
-	.site-images {
-		
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-				
-	}
-
-	.CenterText{
-		
-		text-align: center;
-		
-	}
-	
-	a.links:link {
-	
-	text-decoration: none; 
-	
-	color: #FF9400;
-
-	}
-
-	a.links:visited {
-		
-		color: #FF9400;
-
-	}
-
-	a.links:hover {
-
-		text-decoration: underline;
-
-	}
-	
-	a.archive-links:link {
-	
 	text-decoration: none; 
 	
 	color: #0073c6;
 
-	}
+}
 
-	a.archive-links:visited {
+a.nav:visited {
 
-		color: #0073c6;
 
-	}
+}
 
-	a.archive-links:hover {
+a.nav:hover {
 
-		text-decoration: none;
-		color: #FF9400;
+	text-decoration: none;
+	color: black;
 
-	}
+}
+
+a.links:link {
+
+text-decoration: none; 
+
+color: #FF9400;
+
+}
+
+a.links:visited {
+	
+	color: #FF9400;
+
+}
+
+a.links:hover {
+
+	text-decoration: underline;
+
+}
+
+a.archive-links:link {
+
+text-decoration: none; 
+
+color: #0073c6;
+
+}
+
+a.archive-links:visited {
+
+	color: #0073c6;
+
+}
+
+a.archive-links:hover {
+
+	text-decoration: none;
+	color: #FF9400;
+
+}
 
 
 
