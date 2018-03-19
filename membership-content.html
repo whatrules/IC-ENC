@@ -1,0 +1,163 @@
+<div id="membership-content">
+
+<div class="SiteLocation">
+
+<h2><a href="Home.html" class="nav">Home</a> > Membership</h2>
+
+</div>
+
+<div class="grid-wrapper">
+
+<div class="grid-container">
+
+	<div class="grid-left"> 
+		
+	</div>
+	
+	<div class="grid-centre"> 
+	
+		<div class="membership-map" style="height: 566px; width: 940px;">
+			
+			<h5>Membership - 42</h5>
+		 
+			<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+			
+			<script type="text/javascript">
+				
+				google.load('visualization', '1', {'packages': ['geochart']});
+				google.setOnLoadCallback(drawRegionsMap);
+
+				function drawRegionsMap() {
+					var data = new google.visualization.DataTable();
+					data.addColumn('string', 'Country'); data.addColumn('number', 'Cells');  data.addColumn({type: 'string', role: 'tooltip'});
+					data.addRows([
+						
+						['Argentina',1, 'IC-ENC member'], 
+						['Australia',1, 'IC-ENC member and IC-ENC Australia regional office, Wollongong'], 
+						['Bahrain',1, 'IC-ENC member'], 
+						['Belgium',1, 'IC-ENC member'], 
+						['Brazil',1, 'IC-ENC member and IC-ENC Latin America regional office, Niteroi'], 
+						['Chile',1, 'IC-ENC member'],        
+						['Colombia',1, 'IC-ENC member'], 
+						['Cuba',1, 'IC-ENC member'], 
+						['Denmark',1, 'IC-ENC member'], 
+						['Ecuador',1, 'IC-ENC member'], 
+						['Egypt',1, 'IC-ENC member'], 
+						['Faeroe Islands',1, 'IC-ENC coverage created by Denmark'], 
+						['Falkland Islands',1, 'IC-ENC coverage created by UK'], 
+						['Germany',1, 'IC-ENC member'], 
+						['Greece',1, 'IC-ENC member'],  
+						['Greenland',1, 'IC-ENC coverage created by Denmark'],  
+						['Iceland',1, 'IC-ENC member'],
+						['Israel',1, 'IC-ENC member'], 
+						['Italy',1, 'IC-ENC member'],
+						['Malaysia',1, 'IC-ENC member'],
+						['Malta',1, 'IC-ENC member'], 
+						['Mexico',1, 'IC-ENC member'], 
+						['Mozambique',1, 'IC-ENC member'], 
+						['Netherlands',1, 'IC-ENC member'], 
+						['New Zealand',1, 'IC-ENC member'],  
+						['Oman',1, 'IC-ENC member'],
+						['Panama',1, 'IC-ENC member'],
+						['Pakistan',1, 'IC-ENC member'],
+						['Peru',1, 'IC-ENC member'], 
+						['Portugal',1, 'IC-ENC member'], 
+						['Romania',1, 'IC-ENC member'], 
+						['Russia',1, 'IC-ENC member'], 
+						['South Africa',1, 'IC-ENC member'], 
+						['Solomon Islands',1, 'IC-ENC member'], 
+						['Slovenia',1, 'IC-ENC member'], 
+						['Spain',1, 'IC-ENC member'],  
+						['Suriname',1, 'IC-ENC member'], 
+						['Turkey',1, 'IC-ENC member'], 
+						['Tunisia',1, 'IC-ENC member'], 
+						['United Kingdom',1, 'IC-ENC member. Location of IC-ENC HQ, Taunton'],
+						['United States',1, 'IC-ENC member and location of IC-ENC North America regional office, Washington, DC'],  
+						['Uruguay',1, 'IC-ENC member'], 
+						['Philippines',1, 'IC-ENC member'], 
+						['Venezuela',1, 'IC-ENC member'], 
+
+					]);
+
+					var options = { projection: {
+						name: 'kavrayskiy-vii',
+						parallels: [23, 56],
+						origin: {
+						lat: 45,
+						lng: 0
+						}
+						}
+						, legend: 'none', backgroundColor: '#0072c6', datalessRegionColor: '#ffffff',
+						colorAxis: { colors: ['#ff9400', '#ff9400'], }};
+						
+					var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+						chart.draw(data, options);
+						};
+			
+			</script>
+	  
+			<div id="chart_div" style="width: 940px; height: 500px;"></div>
+				
+		</div>
+			
+		
+	</div>
+	
+	<div class="grid-right"> 
+		
+	</div>
+
+</div>
+
+<div class="membership-table-container" style="border: 1px solid #D3EDFF;">
+	
+	<div class="membership-table"><a href="http://www.hidro.gov.ar/" target="_blank" class="membership-table">Argentina</a></div>
+	<div class="membership-table"><a href="http://www.hydro.gov.au/" target="_blank" class="membership-table">Australia</a></div>
+	<div class="membership-table"><a href="http://www.slrb.gov.bh/" target="_blank" class="membership-table">Bahrain</a></div>
+	<div class="membership-table"><a href="http://www.afdelingkust.be/nl/vlaamse-hydrografie" target="_blank" class="membership-table">Belgium</a></div>
+	<div class="membership-table"><a href="https://www.marinha.mil.br/dhn/" target="_blank" class="membership-table">Brazil</a></div>
+	<div class="membership-table"><a href="http://www.shoa.cl/en/" target="_blank" class="membership-table">Chile</a></div>
+	<div class="membership-table"><a href="http://www.dimar.mil.co/" target="_blank" class="membership-table">Colombia</a></div>
+	<div class="membership-table"><a href="#" target="_blank" class="membership-table">Cuba</a></div>
+	<div class="membership-table"><a href="http://gst.dk/" target="_blank" class="membership-table">Denmark</a></div>
+	<div class="membership-table"><a href="http://www.inocar.mil.ec/web/index.php" target="_blank" class="membership-table">Ecuador</a></div>
+	<div class="membership-table"><a href="#" target="_blank" class="membership-table">Egypt</a></div>
+	<div class="membership-table"><a href="http://www.bsh.de/de/index.jsp" target="_blank" class="membership-table">Germany</a></div>
+	<div class="membership-table"><a href="https://www.hnhs.gr/el/" target="_blank" class="membership-table">Greece</a></div>
+	<div class="membership-table"><a href="http://www.lhg.is/" target="_blank" class="membership-table">Iceland</a></div>
+	<div class="membership-table"><a href="http://www.marina.difesa.it/EN/Conosciamoci/hydroffice/Pagine/default.aspx" target="_blank" class="membership-table">Italy</a></div>
+	<div class="membership-table"><a href="#" target="_blank" class="membership-table">Isreal</a></div>
+	<div class="membership-table"><a href="http://www.hydro.gov.my/" target="_blank" class="membership-table">Malaysia</a></div>
+	<div class="membership-table"><a href="http://www.transport.gov.mt/" target="_blank" class="membership-table">Malta</a></div>
+	<div class="membership-table"><a href="http://www.semar.gob.mx/" target="_blank" class="membership-table">Mexico</a></div>
+	<div class="membership-table"><a href="http://www.inahina.gov.mz/" target="_blank" class="membership-table">Mozambique</a></div>
+	<div class="membership-table"><a href="https://english.defensie.nl/" target="_blank" class="membership-table">Netherlands</a></div>
+	<div class="membership-table"><a href="https://www.linz.govt.nz/" target="_blank" class="membership-table">New Zealand</a></div>
+	<div class="membership-table"><a href="http://www.mod.gov.om/en-US/RNO/HydrographicOceanicServices/" target="_blank" class="membership-table">Oman</a></div>
+	<div class="membership-table"><a href="https://www.paknavy.gov.pk/" target="_blank" class="membership-table">Pakistan</a></div>
+	<div class="membership-table"><a href="http://www.amp.gob.pa/newsite/spanish/home_mirror.html" target="_blank" class="membership-table">Panama</a></div>
+	<div class="membership-table"><a href="https://www.dhn.mil.pe/" target="_blank" class="membership-table">Peru</a></div>
+	<div class="membership-table"><a href="http://www.namria.gov.ph/" target="_blank" class="membership-table">Philippines</a></div>
+	<div class="membership-table"><a href="http://www.hidrografico.pt/" target="_blank" class="membership-table">Portugal</a></div>
+	<div class="membership-table"><a href="https://www.dhmfn.ro/" target="_blank" class="membership-table">Romania</a></div>
+	<div class="membership-table"><a href="#" target="_blank" class="membership-table">Russia</a></div>
+	<div class="membership-table"><a href="http://www.up.gov.si/en/" target="_blank" class="membership-table">Slovenia</a></div>
+	<div class="membership-table"><a href="http://www.hydro.gov.au/" target="_blank" class="membership-table">Solomon Islands</a></div>
+	<div class="membership-table"><a href="http://www.sanho.co.za/" target="_blank" class="membership-table">South Africa</a></div>
+	<div class="membership-table"><a href="http://www.armada.mde.es/ihm/" target="_blank" class="membership-table">Spain</a></div>
+	<div class="membership-table"><a href="http://www.mas.sr/en/" target="_blank" class="membership-table">Suriname</a></div>
+	<div class="membership-table"><a href="http://www.cnct.defense.tn/" target="_blank" class="membership-table">Tunisia</a></div>
+	<div class="membership-table"><a href="http://www.shodb.gov.tr/shodb_esas/index.php/tr/?option=com_content&view=article&id=28" target="_blank" class="membership-table">Turkey</a></div>
+	<div class="membership-table"><a href="http://www.ukho.gov.uk/Pages/home.aspx" target="_blank" class="membership-table">United Kingdom</a></div>
+	<div class="membership-table"><a href="https://www.nauticalcharts.noaa.gov/" target="_blank" class="membership-table">United States</a></div>
+	<div class="membership-table"><a href="http://www.armada.mil.uy/" target="_blank" class="membership-table">Uruguay</a></div>
+	<div class="membership-table"><a href="http://www.dhn.mil.ve/" target="_blank" class="membership-table">Venezuela</a></div>
+	
+</div>
+
+</div>
+
+<br>
+<br>
+
+</div>
